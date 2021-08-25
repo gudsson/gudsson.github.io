@@ -1,10 +1,11 @@
 import React from 'react';
+import Obfuscate from 'react-obfuscate';
 
 const Footer = ({ data }) => {
   if (!data) return <></>
 
   return (
-    <footer>
+    <footer id="footer">
 
       <div className="row">
           <div className="twelve columns">
@@ -16,6 +17,11 @@ const Footer = ({ data }) => {
                     </a>
                   </li>
                 )}
+                <li>
+                  <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
+                    <i className={"fa fa-envelope"}></i>
+                  </Obfuscate>
+                </li>      
             </ul>
 
             <ul className="copyright">

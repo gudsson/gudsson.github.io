@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Obfuscate from 'react-obfuscate';
 
 class Header extends Component {
   render() {
@@ -25,9 +26,10 @@ class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a className="smoothscroll" href="#skills">Skills</a></li>
             {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li><a className="smoothscroll" href="#footer">Contact</a></li>
          </ul>
 
       </nav>
@@ -39,6 +41,11 @@ class Header extends Component {
             <hr />
             <ul className="social">
                {networks}
+               <li>
+                  <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
+                    <i className={"fa fa-envelope"}></i>
+                  </Obfuscate>
+               </li>
             </ul>
          </div>
       </div>

@@ -281,6 +281,36 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+/* ------------------------------------------------------------------ */
+/* d2. Skills Section
+/* ------------------------------------------------------------------ */
+
+#skills {
+   background-color: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #11ABB0; }
+#skills a:hover, #skills a:focus { color: #313131; }
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#skills h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skills .header-col { padding-top: 9px; }
+#skills .main-col { padding-right: 10%; }
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

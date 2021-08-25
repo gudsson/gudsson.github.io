@@ -23,21 +23,79 @@ class Portfolio extends Component {
       })
     }
 
-    return (
-      <section id="portfolio">
+  //     <section id="portfolio">
 
-      <div className="row">
+  //     <div className="row">
 
-         <div className="twelve columns collapsed">
+  //        <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+  //           <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+  //           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+  //               {projects}
+  //           </div>
+  //         </div>
+  //     </div>
+  //  </section>
+
+  return (
+    <section id="skills">
+      <div className="row skills">
+
+        <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+        </div>
+
+        <div className="nine columns main-col">
+          <div class="row">
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-html5-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>html5</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-nodejs-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>nodeJS</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-react-original" style={{fontSize: 500 + '%'}}></i>
+              <p>React</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-express-original" style={{fontSize: 500 + '%'}}></i>
+              <p>express</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-jquery-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>jQuery</p>
             </div>
           </div>
+          <div class="row">
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-css3-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>css3</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-go-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>Go</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-python-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>Python</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-postgresql-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>Postgres</p>
+            </div>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <i class="devicon-mongodb-plain" style={{fontSize: 500 + '%'}}></i>
+              <p>MongoDB</p>
+            </div>
+
+          </div>
+        </div>
       </div>
-   </section>
+    </section>
+
     );
   }
 }
