@@ -1,16 +1,16 @@
 {
   "main": {
     "name": "Jay Gudsson",
-    "occupation": "Software Developer",
+    "occupation": "Full Stack Software Developer",
     "description": "XXX",
     "image": "profilepic.jpg",
-    "bio": "YYY",
+    "bio": "Previously, I spent 5 years working in construction as a Project Engineer.  I decided to persue my interest in software after demonstrating an ability to build spreadsheets and small apps to improve workflow, and to fulfill my desire to work with more modern technologies.",
     "contactmessage": "ZZZ - This is broken",
     "address": {
       "city": "Vancouver"
     },
     "website": "http://gudsson.github.io",
-    "resumedownload": "http://gudsson.github.io/CV.pdf",
+    "resumedownload": "/CV.pdf",
     "social": [
       {
         "name": "twitter",
@@ -35,8 +35,8 @@
       {
         "school": "Launch School",
         "degree": "Online Software Engineering Program",
-        "graduated": "2020 - 2021",
-        "description": "XXX"
+        "graduated": "2020 - 2021",     
+        "description": "<ul><li>dfadsfads</li></ul>"
       },
       {
         "school": "University of British Columbia",

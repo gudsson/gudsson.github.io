@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Obfuscate from 'react-obfuscate';
 
 class Contact extends Component {
   render() {
@@ -17,16 +18,21 @@ class Contact extends Component {
     return (
       <section id="contact">
          <div className="row section-head">
-            <div className="two columns header-col">
-               <h1><span>Get In Touch.</span></h1>
+            <div className="twelve columns header-col">
+               <h1>Get In Touch.</h1>
             </div>
 
             <div className="ten columns">
-               <p className="lead">{message}</p>
+               <p className="lead">If you'd like to contact me, feel free to click the envelope icon to send me an email, or reach out on one of the platforms linked to at the bottom of the page.</p>
+            </div>
+            <div className="two columns">
+               <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
+                  <i className={"big-link fa fa-envelope"}></i>
+               </Obfuscate>
             </div>
          </div>
 
-         <div className="row">
+         {/* <div className="row">
             <div className="twelve columns">
                <form action="" method="post" id="contactForm" name="contactForm">
                   <fieldset>
@@ -59,7 +65,7 @@ class Contact extends Component {
                <i className="fa fa-check"></i>Your message was sent, thank you!<br />
             </div>
             </div>
-         </div>
+         </div> */}
       </section>
     )
   }

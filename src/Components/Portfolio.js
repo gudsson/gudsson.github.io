@@ -47,7 +47,7 @@ class Portfolio extends Component {
         </div>
 
         <div className="nine columns main-col">
-          <div class="row">
+          <div class="row" style={{textAlign: 'center'}} >
             <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
               <i class="devicon-html5-plain" style={{fontSize: 500 + '%'}}></i>
               <p>html5</p>
@@ -69,7 +69,7 @@ class Portfolio extends Component {
               <p>jQuery</p>
             </div>
           </div>
-          <div class="row">
+          <div class="row" style={{textAlign: 'center'}} >
             <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
               <i class="devicon-css3-plain" style={{fontSize: 500 + '%'}}></i>
               <p>css3</p>
