@@ -1,0 +1,99 @@
+{
+  "main": {
+    "name": "Jay Gudsson",
+    "occupation": "Full Stack Software Developer",
+    "description": "XXX",
+    "image": "profilepic.jpg",
+    "bio": "Previously, I spent 5 years working in construction as a Project Engineer.  I decided to persue my interest in software after demonstrating an ability to build spreadsheets and small apps to improve workflow, and to fulfill my desire to work with more modern technologies.",
+    "contactmessage": "ZZZ - This is broken",
+    "address": {
+      "city": "Vancouver"
+    },
+    "website": "http://gudsson.github.io",
+    "resumedownload": "/CV.pdf",
+    "social": [
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/gudsson",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/gudsson",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/gudsson",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Launch School",
+        "degree": "Online Software Engineering Program",
+        "graduated": "2020 - 2021",     
+        "description": "<ul><li>dfadsfads</li></ul>"
+      },
+      {
+        "school": "University of British Columbia",
+        "degree": "Bachelor of Applied Science - Civil Engineering",
+        "graduated": "Graduated May 2014",
+        "description": "XXX"
+      },
+      {
+        "school": "Simon Fraser University",
+        "degree": "Undergraduate Courses - Systems Engineering",
+        "graduated": "2008 - 2010",
+        "description": "XXX"
+      }
+    ],
+    "work": [
+      {
+        "company": "BC Building Science",
+        "title": "Project Engineer",
+        "years": "2018 - 2020",
+        "description": "XXX"
+      },
+      {
+        "company": "Sense Engineering",
+        "title": "Project Associate",
+        "years": "2016 - 2018",
+        "description": "XXX"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  }
+}
