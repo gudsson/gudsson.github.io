@@ -20,7 +20,6 @@ class Header extends Component {
 	         <li><a className="smoothscroll" href="#contact">Contact</a></li>
             {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-            <li><a className="smoothscroll" href="#footer">Footer</a></li>
          </ul>
 
       </nav>
