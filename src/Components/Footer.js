@@ -1,27 +1,29 @@
 import React from 'react';
 import Obfuscate from 'react-obfuscate';
 
-const Footer = ({ data }) => {
-  if (!data) return <></>
+const Footer = () => {
 
   return (
     <footer id="footer">
 
       <div className="row">
           <div className="twelve columns">
-            <ul className="social-links">
-                {data.social.map(network => 
-                  <li key={network.name}>
-                    <a href={network.url}>
-                      <i className={network.className}></i>
-                    </a>
-                  </li>
-                )}
-                <li>
+          <ul className="social-links">
+               <li>
+                  <a href="https://linkedin.com/in/gudsson"><i className={"fa fa-linkedin"}></i></a>
+               </li>
+               <li>
+                  <a href="http://github.com/gudsson"><i className={"fa fa-github"}></i></a>
+               </li>
+               <li>
+                  <a href="http://twitter.com/gudsson"><i className={"fa fa-twitter"}></i></a>
+               </li>
+
+               <li>
                   <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
                     <i className={"fa fa-envelope"}></i>
                   </Obfuscate>
-                </li>      
+               </li>
             </ul>
 
             <ul className="copyright">

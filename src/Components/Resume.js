@@ -59,7 +59,7 @@ class Resume extends Component {
                       Gradulated with Distinction (84.2% GPA)
                     </li>
                     <li>
-                      Elective courses in BIM Modelling, Advanced Concrete Design, and Advanced Structural Analysis.
+                      Advanced courses in BIM Modelling, Concrete Design, and Structural Analysis.
                     </li>
                   </ul>
                 </div>
