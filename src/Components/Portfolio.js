@@ -42,11 +42,11 @@ class Portfolio extends Component {
     <section id="skills">
       <div className="row skills">
 
-        <div className="three columns header-col">
+        <div className="two columns header-col">
             <h1><span>Skills</span></h1>
         </div>
 
-        <div className="nine columns main-col">
+        <div className="ten columns main-col">
           <div class="row" style={{textAlign: 'center'}} >
             <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
               <i class="devicon-html5-plain" style={{fontSize: 500 + '%'}}></i>
