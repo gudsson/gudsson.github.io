@@ -4,29 +4,11 @@
     "occupation": "Full Stack Software Developer",
     "description": "XXX",
     "image": "profilepic.jpg",
-    "bio": "Previously, I spent 5 years working in construction as a Project Engineer.  I decided to persue my interest in software after demonstrating an ability to build spreadsheets and small apps to improve workflow, and to fulfill my desire to work with more modern technologies.",
     "contactmessage": "ZZZ - This is broken",
     "address": {
       "city": "Vancouver"
     },
-    "website": "http://gudsson.github.io",
-    "resumedownload": "/CV.pdf",
-    "social": [
-      {
-        "name": "twitter",
-        "url": "http://twitter.com/gudsson",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://linkedin.com/in/gudsson",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/gudsson",
-        "className": "fa fa-github"
-      }
+    "website": "http://gudsson.github.io"
     ]
   },
   "resume": {
