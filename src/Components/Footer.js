@@ -25,6 +25,9 @@ const Footer = () => {
                   </Obfuscate>
                </li>
             </ul>
+            <div style={{textAlign: 'center', display: "inline-block", padding: 20 + 'px'}}>
+              <img src="https://www.codewars.com/users/aasiaat/badges/large" />
+            </div>
 
             <ul className="copyright">
                 <li>&copy; Copyright {(new Date()).getFullYear()} Jay Gudsson</li>

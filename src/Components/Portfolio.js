@@ -94,6 +94,11 @@ class Portfolio extends Component {
           </div>
         </div>
       </div>
+      <div className="row skills">
+        <div className="two columns header-col">
+            <h1><span>Practice</span></h1>
+        </div>
+      </div>
     </section>
 
     );
