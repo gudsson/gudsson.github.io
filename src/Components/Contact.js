@@ -10,14 +10,17 @@ class Contact extends Component {
                <h1>Get In Touch.</h1>
             </div>
 
-            <div className="ten columns">
-               <p className="lead">If you'd like to contact me, feel free to click the envelope icon to send me an email, or reach out on one of the platforms linked to at the bottom of the page.</p>
-            </div>
-            <div className="two columns">
-               <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
-                  <i className={"big-link fa fa-envelope"}></i>
-               </Obfuscate>
-            </div>
+            {/* <div class="row" style={{textAlign: "center"}}> */}
+               <div className="ten columns">
+                  <p className="lead">If you'd like to contact me, feel free to click the envelope icon to send me an email, or reach out on one of the platforms linked to at the bottom of the page.</p>
+               </div>
+
+               <div className="two columns" style={{textAlign: "center"}}>
+                  <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
+                     <i className={"big-link fa fa-envelope"} style={{display: "inline", float: "none"}}></i>
+                  </Obfuscate>
+               </div>
+            {/* </div> */}
          </div>
 
          {/* <div className="row">
