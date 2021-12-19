@@ -19,8 +19,9 @@ class About extends Component {
               Envelope and Structural Restoration Engineer. I decided to persue
               my interest in software after demonstrating an ability to build
               spreadsheets and small apps to improve workflow, and to fulfill my
-              desire to work with more modern technologies.
+              desire to work with more <span id="cv">modern technologies.</span>
             </p>
+            {/* <br id="cv" /> */}
             <div className="row">
               <div className="columns download">
                 <p>
