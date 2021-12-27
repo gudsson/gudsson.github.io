@@ -5,9 +5,11 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
+// import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import Skills from "./Components/Skills";
+import Spotlight from "./Components/Spotlight";
 
 class App extends Component {
   constructor(props) {
@@ -24,9 +26,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <About />
-        <Resume />
+        <Spotlight />
         <Portfolio />
+        <Skills />
+        <About />
+        {/* <Resume /> */}
         <Contact />
         <Footer />
       </div>
