@@ -9,6 +9,24 @@ class Portfolio extends Component {
         url: "https://google.ca",
         category: "none",
       },
+      {
+        title: "Test",
+        image: "canadian-wanderlust.jpg",
+        url: "https://google.ca",
+        category: "none",
+      },
+      {
+        title: "Test",
+        image: "canadian-wanderlust.jpg",
+        url: "https://google.ca",
+        category: "none",
+      },
+      {
+        title: "Test",
+        image: "canadian-wanderlust.jpg",
+        url: "https://google.ca",
+        category: "none",
+      },
     ];
 
     if (projectData) {

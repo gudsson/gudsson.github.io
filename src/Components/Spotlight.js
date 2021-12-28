@@ -34,6 +34,14 @@ const Spotlight = () => {
   //   });
   // }
 
+  const animate = (e) => {
+    e.target.src = `${e.target.src.slice(0, -4)}.gif`;
+  };
+
+  const killAnimation = (e) => {
+    e.target.src = `${e.target.src.slice(0, -4)}.png`;
+  };
+
   return (
     <>
       <section id="spotlight">
@@ -41,14 +49,64 @@ const Spotlight = () => {
           <div className="twelve columns collapsed">
             <h1>Project Spotlight</h1>
 
-            <div
+            {/* <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
-            >
-              <img
-                src="/images/synapse-horizontal-tagline.png"
-                alt="synapse-logo"
-              ></img>
+            > */}
+            <div className="row">
+              <div className="six columns collapsed">
+                <img
+                  src="/images/synapse-horizontal-tagline.png"
+                  alt="synapse-logo"
+                ></img>
+              </div>
+              <div className="six columns collapsed">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  mattis vestibulum sodales. Duis luctus a sapien in ultrices.
+                  Morbi faucibus dolor ut lacus vestibulum finibus quis sed dui.
+                </p>
+                <p>
+                  Praesent eu ipsum libero. Mauris fringilla faucibus blandit.
+                  Phasellus dolor sapien, placerat et elementum non, suscipit eu
+                  neque. Nam feugiat tincidunt purus a fringilla.
+                </p>
+              </div>
+            </div>
+            <br />
+            <br />
+            <div className="row">
+              <div className="twelve columns collapsed">
+                <div className="bgrid-thirds cf">
+                  <div className="columns project-item">
+                    <img
+                      alt="Test"
+                      src="images/portfolio/canadian-wanderlust.jpg"
+                      // style={{ display: "block", position: "relative" }}
+                    />
+                    <h1>Create</h1>
+                  </div>
+                  <div className="columns project-item">
+                    <img
+                      alt="Deploy"
+                      src="images/spotlight/deployer.gif"
+                      style={{ borderRadius: "6px" }}
+                      onMouseEnter={(e) => animate(e)}
+                      onMouseLeave={(e) => killAnimation(e)}
+                      // onMouseLeave={alert("mouse left")}
+                      // style={{ display: "block", position: "relative" }}
+                    />
+                    <h1>Deploy</h1>
+                  </div>
+                  <div className="columns project-item">
+                    <img
+                      alt="Test"
+                      src="images/portfolio/canadian-wanderlust.jpg"
+                    />
+                    <h1>Monitor</h1>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
