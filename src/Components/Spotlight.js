@@ -87,22 +87,29 @@ const Spotlight = () => {
                     <h1>Create</h1>
                   </div>
                   <div className="columns project-item">
-                    <img
-                      alt="Deploy"
-                      src="images/spotlight/deployer.gif"
-                      style={{ borderRadius: "6px" }}
-                      onMouseEnter={(e) => animate(e)}
-                      onMouseLeave={(e) => killAnimation(e)}
-                      // onMouseLeave={alert("mouse left")}
-                      // style={{ display: "block", position: "relative" }}
-                    />
+                    <div>
+                      <img
+                        alt="Deploy"
+                        src="images/spotlight/deployer.png"
+                        style={{ borderRadius: "6px" }}
+                        onMouseEnter={(e) => animate(e)}
+                        onMouseLeave={(e) => killAnimation(e)}
+                        // onMouseLeave={alert("mouse left")}
+                        // style={{ display: "block", position: "relative" }}
+                      />
+                    </div>
                     <h1>Deploy</h1>
                   </div>
                   <div className="columns project-item">
-                    <img
-                      alt="Test"
-                      src="images/portfolio/canadian-wanderlust.jpg"
-                    />
+                    <div>
+                      <img
+                        alt="Monitor"
+                        src="images/spotlight/monitoring.png"
+                        style={{ borderRadius: "6px" }}
+                        onMouseEnter={(e) => animate(e)}
+                        onMouseLeave={(e) => killAnimation(e)}
+                      />
+                    </div>
                     <h1>Monitor</h1>
                   </div>
                 </div>

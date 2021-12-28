@@ -533,6 +533,10 @@ ul#nav li.current a {
   margin-top: 20px;
 }
 
+/* .project-item div {
+  display: block;
+} */
+
 #portfolio {
   background: #ebeeee;
   padding-top: 50px;
