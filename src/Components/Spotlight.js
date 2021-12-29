@@ -45,81 +45,128 @@ const Spotlight = () => {
   return (
     <>
       <section id="spotlight">
+        <div className="row title">
+          <div classname="title-container">
+            <h1>Project Spotlight: </h1>
+            <img
+              src="/images/synapse-inline.png"
+              alt="synapse-logo"
+              style={{ display: "inline", height: "2em" }}
+            ></img>
+          </div>
+        </div>
+        {/* <div className="row">
+          <div className="eight columns collapsed">
+            <p>
+              <a
+                href="https://synapse-gateway.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Synapse
+              </a>{" "}
+              is an open-source tool that builds, deploys, and monitors a
+              GraphQL Gateway, enabling you to put your legacy services behind a
+              single GraphQL endpoint.
+              <br />
+              <br />
+              Synapse is built with React, Express, MongoDB, and Apollo Server.
+              Components are Dockerized and run on AWS Fargate instances via the
+              Copilot CLI.
+            </p>
+          </div>
+          <div className="four columns collapsed">
+            {" "}
+            <div className="btn">
+              <a
+                href="https://synapse-gateway.github.io/case-study.html"
+                className="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Case Study
+              </a>
+            </div>
+          </div>
+        </div> */}
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Project Spotlight</h1>
-
-            {/* <div
-              id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
-            > */}
-            <div className="row">
-              <div className="six columns collapsed">
+            <p>
+              <a
+                href="https://synapse-gateway.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Synapse
+              </a>{" "}
+              is an open-source tool that builds, deploys, and monitors a
+              GraphQL Gateway, enabling you to put your legacy services behind a
+              single GraphQL endpoint.
+              <br />
+              <br />
+              Synapse is built with React, Express, MongoDB, and Apollo Server.
+              Components are Dockerized and run on AWS Fargate instances via the
+              Copilot CLI.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <div className="bgrid-thirds cf">
+              <div className="columns project-item">
                 <img
-                  src="/images/synapse-horizontal-tagline.png"
-                  alt="synapse-logo"
-                ></img>
+                  alt="Create"
+                  src="images/spotlight/create.png"
+                  style={{ borderRadius: "6px" }}
+                  onMouseEnter={(e) => animate(e)}
+                  onMouseLeave={(e) => killAnimation(e)}
+                />
+                <h1>Create</h1>
               </div>
-              <div className="six columns collapsed">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  mattis vestibulum sodales. Duis luctus a sapien in ultrices.
-                  Morbi faucibus dolor ut lacus vestibulum finibus quis sed dui.
-                </p>
-                <p>
-                  Praesent eu ipsum libero. Mauris fringilla faucibus blandit.
-                  Phasellus dolor sapien, placerat et elementum non, suscipit eu
-                  neque. Nam feugiat tincidunt purus a fringilla.
-                </p>
-              </div>
-            </div>
-            <br />
-            <br />
-            <div className="row">
-              <div className="twelve columns collapsed">
-                <div className="bgrid-thirds cf">
-                  <div className="columns project-item">
-                    <img
-                      alt="Create"
-                      src="images/spotlight/create.png"
-                      style={{ borderRadius: "6px" }}
-                      onMouseEnter={(e) => animate(e)}
-                      onMouseLeave={(e) => killAnimation(e)}
-                      // style={{ display: "block", position: "relative" }}
-                    />
-                    <h1>Create</h1>
-                  </div>
-                  <div className="columns project-item">
-                    <div>
-                      <img
-                        alt="Deploy"
-                        src="images/spotlight/deployer.png"
-                        style={{ borderRadius: "6px" }}
-                        onMouseEnter={(e) => animate(e)}
-                        onMouseLeave={(e) => killAnimation(e)}
-                        // onMouseLeave={alert("mouse left")}
-                        // style={{ display: "block", position: "relative" }}
-                      />
-                    </div>
-                    <h1>Deploy</h1>
-                  </div>
-                  <div className="columns project-item">
-                    <div>
-                      <img
-                        alt="Monitor"
-                        src="images/spotlight/monitoring.png"
-                        style={{ borderRadius: "6px" }}
-                        onMouseEnter={(e) => animate(e)}
-                        onMouseLeave={(e) => killAnimation(e)}
-                      />
-                    </div>
-                    <h1>Monitor</h1>
-                  </div>
+              <div className="columns project-item">
+                <div>
+                  <img
+                    alt="Deploy"
+                    src="images/spotlight/deployer.png"
+                    style={{ borderRadius: "6px" }}
+                    onMouseEnter={(e) => animate(e)}
+                    onMouseLeave={(e) => killAnimation(e)}
+                  />
                 </div>
+                <h1>Deploy</h1>
+              </div>
+              <div className="columns project-item">
+                <div>
+                  <img
+                    alt="Monitor"
+                    src="images/spotlight/monitoring.png"
+                    style={{ borderRadius: "6px" }}
+                    onMouseEnter={(e) => animate(e)}
+                    onMouseLeave={(e) => killAnimation(e)}
+                  />
+                </div>
+                <h1>Monitor</h1>
               </div>
             </div>
           </div>
         </div>
+        <div className="row">
+          <div style={{ textAlign: "center" }}>
+            <p>
+              <a
+                href="https://synapse-gateway.github.io/case-study.html"
+                className="button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Read The Synapse Case Study
+              </a>
+            </p>
+          </div>
+        </div>
+        {/* </div> */}
       </section>
     </>
   );
