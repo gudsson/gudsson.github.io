@@ -80,8 +80,11 @@ const Spotlight = () => {
                 <div className="bgrid-thirds cf">
                   <div className="columns project-item">
                     <img
-                      alt="Test"
-                      src="images/portfolio/canadian-wanderlust.jpg"
+                      alt="Create"
+                      src="images/spotlight/create.png"
+                      style={{ borderRadius: "6px" }}
+                      onMouseEnter={(e) => animate(e)}
+                      onMouseLeave={(e) => killAnimation(e)}
                       // style={{ display: "block", position: "relative" }}
                     />
                     <h1>Create</h1>
