@@ -46,7 +46,7 @@ const Spotlight = () => {
     <>
       <section id="spotlight">
         <div className="row title">
-          <div classname="title-container">
+          <div className="title-container">
             <h1>Project Spotlight: </h1>
             <img
               src="/images/synapse-inline.png"
