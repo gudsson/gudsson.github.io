@@ -167,7 +167,9 @@ const Spotlight = () => {
           </div>
         </div>
         {/* </div> */}
+        <div className="row last"></div>
       </section>
+      {/* <hr /> */}
     </>
   );
 };

@@ -6,9 +6,9 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 // import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
+// import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
-import Skills from "./Components/Skills";
+// import Skills from "./Components/Skills";
 import Spotlight from "./Components/Spotlight";
 
 class App extends Component {
@@ -28,10 +28,10 @@ class App extends Component {
         <Header />
         <Spotlight />
         <Portfolio />
-        <Skills />
         <About />
+        {/* <Skills /> */}
         {/* <Resume /> */}
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
     );

@@ -17,11 +17,11 @@ const Footer = () => {
                 <i className={"fa fa-github"}></i>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="http://twitter.com/gudsson">
                 <i className={"fa fa-twitter"}></i>
               </a>
-            </li>
+            </li> */}
 
             <li>
               <Obfuscate email="gudsson@gmail.com" aria-label="Email Me">
@@ -36,10 +36,16 @@ const Footer = () => {
               padding: 20 + "px",
             }}
           >
-            <img
-              src="https://www.codewars.com/users/aasiaat/badges/large"
-              alt="codewars badge"
-            />
+            <a
+              href="https://www.codewars.com/users/aasiaat/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://www.codewars.com/users/aasiaat/badges/large"
+                alt="codewars badge"
+              />
+            </a>
           </div>
 
           {/* <ul className="copyright">

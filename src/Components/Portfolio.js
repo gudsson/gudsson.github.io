@@ -4,28 +4,29 @@ class Portfolio extends Component {
   render() {
     const projectData = [
       {
-        title: "Test",
-        image: "canadian-wanderlust.jpg",
-        url: "https://google.ca",
-        category: "none",
+        title: "RedressedBin👗",
+        image: "redressedbin.png",
+        url: "https://bin.gudsson.ca",
+        paragraphs: [
+          "A RequestBin-style application for collecting and analyzing HTTP/webhook requests in real-time.",
+          "Built using React, Bootstrap, Express, MongoDB, and Socket.io",
+        ],
       },
       {
-        title: "Test",
-        image: "canadian-wanderlust.jpg",
-        url: "https://google.ca",
-        category: "none",
+        title: "Hockey Boxscore Scraper",
+        image: "aasistats.png",
+        url: "https://github.com/gudsson/ahl_0/",
+        paragraphs: [
+          "A Python scraper using the BeautifulSoup library to extract shot location data from minor league hockey boxscores for using in developing Expected Goal (xG) models.",
+        ],
       },
       {
-        title: "Test",
-        image: "canadian-wanderlust.jpg",
-        url: "https://google.ca",
-        category: "none",
-      },
-      {
-        title: "Test",
-        image: "canadian-wanderlust.jpg",
-        url: "https://google.ca",
-        category: "none",
+        title: "ProjectHub",
+        image: "projecthub.png",
+        paragraphs: [
+          "A Trello-like project management application.",
+          "Built using React/Redux, Express, and MongoDB.",
+        ],
       },
     ];
 
@@ -40,11 +41,19 @@ class Portfolio extends Component {
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>{projects.title}</h5>
-                    <p>{projects.category}</p>
+
+                    {projects.paragraphs.map((sentence) => {
+                      return <p>{sentence}</p>;
+                    })}
+
+                    {projects.url && (
+                      <div style={{ textAlign: "center" }}>
+                        <div className="link-icon">
+                          <i className="fa fa-link"></i>
+                        </div>
+                      </div>
+                    )}
                   </div>
-                </div>
-                <div className="link-icon">
-                  <i className="fa fa-link"></i>
                 </div>
               </a>
             </div>
@@ -62,7 +71,9 @@ class Portfolio extends Component {
 
               <div
                 id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
+                className="bgrid-thirds cf"
+                // className="bgrid-quarters s-bgrid-halves cf"
+                // style={{ textAlign: "center" }}
               >
                 {projects}
               </div>
