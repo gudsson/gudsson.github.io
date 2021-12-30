@@ -64,7 +64,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-html5-plain"
+                  className="devicon-html5-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>html5</p>
@@ -77,7 +77,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-graphql-plain"
+                  className="devicon-graphql-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>GraphQL</p>
@@ -90,7 +90,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-nodejs-plain"
+                  className="devicon-nodejs-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>nodeJS</p>
@@ -105,7 +105,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-react-original"
+                  className="devicon-react-original"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>React</p>
@@ -118,7 +118,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-express-original"
+                  className="devicon-express-original"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>express</p>
@@ -131,7 +131,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-jquery-plain"
+                  className="devicon-jquery-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>jQuery</p>
@@ -148,7 +148,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-css3-plain"
+                  className="devicon-css3-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>css3</p>
@@ -160,7 +160,10 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i class="devicon-go-plain" style={{ fontSize: 500 + "%" }}></i>
+                <i
+                  className="devicon-go-plain"
+                  style={{ fontSize: 500 + "%" }}
+                ></i>
                 <p>Go</p>
               </div>
               <div
@@ -171,7 +174,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-python-plain"
+                  className="devicon-python-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>Python</p>
@@ -186,7 +189,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-postgresql-plain"
+                  className="devicon-postgresql-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>Postgres</p>
@@ -199,7 +202,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-mongodb-plain"
+                  className="devicon-mongodb-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>MongoDB</p>
@@ -212,7 +215,7 @@ class About extends Component {
                 }}
               >
                 <i
-                  class="devicon-docker-plain"
+                  className="devicon-docker-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
                 <p>Docker</p>
