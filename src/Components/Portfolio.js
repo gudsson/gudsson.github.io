@@ -23,6 +23,7 @@ class Portfolio extends Component {
       {
         title: "ProjectHub",
         image: "projecthub.png",
+        url: "https://github.com/synapse-gateway/project-hub",
         paragraphs: [
           "A Trello-like project management application.",
           "Built using React/Redux, Express, and MongoDB.",
@@ -36,7 +37,12 @@ class Portfolio extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
+              <a
+                href={projects.url}
+                title={projects.title}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img alt={projects.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
