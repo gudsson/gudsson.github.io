@@ -39,16 +39,22 @@ class About extends Component {
             </a>
           </p>
         </div>
+        <div
+          className="row last"
+          style={{ borderBottom: "1px solid #444444" }}
+        ></div>
 
-        <div className="row skills">
+        {/* <div className="row skills"> */}
+        <div className="row skills" style={{ paddingTop: "80px" }}>
           {/* <div className="one columns collapsed"></div> */}
-          <div className="three columns collapsed">
-            <h1>
-              <span>Skills</span>
-            </h1>
+          <div className="twelve columns collapsed">
+            <h2>
+              {/* <span>Skills</span> */}
+              My Skills
+            </h2>
           </div>
 
-          <div className="nine columns">
+          <div className="twelve columns" style={{ textAlign: "center" }}>
             <div style={{ display: "inline-block" }}>
               <div
                 style={{
@@ -132,7 +138,7 @@ class About extends Component {
               </div>
             </div>
           </div>
-          <div className="nine columns">
+          <div className="twelve columns" style={{ textAlign: "center" }}>
             <div style={{ display: "inline-block" }}>
               <div
                 style={{
