@@ -37,31 +37,23 @@ class Portfolio extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a
-                href={projects.url}
-                title={projects.title}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img alt={projects.title} src={projectImage} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{projects.title}</h5>
+              <img alt={projects.title} src={projectImage} />
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>{projects.title}</h5>
 
-                    {projects.paragraphs.map((sentence) => {
-                      return <p>{sentence}</p>;
-                    })}
-
-                    {projects.url && (
-                      <div style={{ textAlign: "center" }}>
-                        <div className="link-icon">
-                          <i className="fa fa-link"></i>
-                        </div>
+                  {projects.paragraphs.map((sentence) => {
+                    return <p>{sentence}</p>;
+                  })}
+                  <a href={projects.url} target="_blank" rel="noreferrer">
+                    <div style={{ textAlign: "center" }}>
+                      <div className="link-icon">
+                        <i className="fa fa-link"></i>
                       </div>
-                    )}
-                  </div>
+                    </div>
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         );

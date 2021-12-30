@@ -674,7 +674,7 @@ ul#nav li.current a {
   transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-  display: block;
+  /* display: block; */
   cursor: pointer;
 }
 
