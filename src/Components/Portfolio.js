@@ -8,16 +8,17 @@ const Portfolio = () => {
       url: "https://bin.gudsson.ca",
       paragraphs: [
         "A RequestBin-style application for collecting and analyzing HTTP/webhook requests in real-time.",
-        "Built using React, Bootstrap, Express, MongoDB, and Socket.io",
       ],
+      tech: "React, Bootstrap, Express, MongoDB, and Socket.io",
     },
     {
       title: "Hockey Boxscore Scraper",
       image: "aasistats.png",
       url: "https://github.com/gudsson/ahl_0/",
       paragraphs: [
-        "A Python scraper using the BeautifulSoup library to extract shot location data from minor league hockey boxscores for using in developing Expected Goal (xG) models.",
+        "A webscraper to extract shot location data from minor league hockey boxscores for using in developing Expected Goal (xG) models.",
       ],
+      tech: "Python (BeautifulSoup), SQLite",
     },
     {
       title: "ProjectHub",
@@ -27,19 +28,20 @@ const Portfolio = () => {
         "A Trello-like project management application.",
         "Built using React/Redux, Express, and MongoDB.",
       ],
+      tech: "React | Redux, Express, MongoDB",
     },
   ];
 
-  const openTab = (e) => {
-    window.open(e.currentTarget.dataset.url, "_blank").focus();
-  };
+  // const openTab = (e) => {
+  //   window.open(e.currentTarget.dataset.url, "_blank").focus();
+  // };
 
   if (projectData) {
     var projects = projectData.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap" data-url={projects.url} onClick={openTab}>
+          <div className="item-wrap">
             <div className="clickable">
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
@@ -49,12 +51,12 @@ const Portfolio = () => {
                   {projects.paragraphs.map((sentence) => {
                     return <p key={sentence}>{sentence}</p>;
                   })}
-                  {/* <a href={projects.url} target="_blank" rel="noreferrer"> */}
-                  <div style={{ textAlign: "center" }}>
+                  <p className="tech">{projects.tech}</p>
+                  {/* <div style={{ textAlign: "center" }}>
                     <div className="link-icon">
                       <i className="fa fa-link"></i>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -69,14 +71,8 @@ const Portfolio = () => {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Other Work</h1>
-
-            <div
-              id="portfolio-wrapper"
-              className="bgrid-thirds cf"
-              // className="bgrid-quarters s-bgrid-halves cf"
-              // style={{ textAlign: "center" }}
-            >
+            <h1>Select Other Projects</h1>
+            <div id="portfolio-wrapper" className="bgrid-thirds cf">
               {projects}
             </div>
           </div>
