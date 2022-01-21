@@ -12,13 +12,20 @@ const Portfolio = () => {
       tech: "React, Bootstrap, Express, MongoDB, and Socket.io",
     },
     {
-      title: "Hockey Boxscore Scraper",
+      title: "Hockey Boxscore Scrapers",
       image: "aasistats.png",
       url: "https://github.com/gudsson/ahl_0/",
       paragraphs: [
-        "A webscraper to extract shot location data from minor league hockey boxscores for using in developing Expected Goal (xG) models.",
+        "Webscrapers to extract shot location data from both NHL and AHL hockey boxscores for using in developing Expected Goal (xG) models.",
       ],
-      tech: "Python (BeautifulSoup), SQLite",
+      tech: "Go (Colly), Python (BeautifulSoup), SQLite",
+    },
+    {
+      title: "Gordle",
+      image: "gordle.png",
+      url: "https://gordle.herokuapp.com/",
+      paragraphs: ["A Wordle clone that uses only NHL player names."],
+      tech: "Svelte, Express",
     },
     {
       title: "ProjectHub",
