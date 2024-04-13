@@ -18,15 +18,17 @@ class About extends Component {
           </div>
           <div className="nine columns main-col">
             <p>
-              I'm a Software Developer with experience in JavaScript/TypeScript,
-              Go, Python, SQL & NoSQL Databases, Docker, and AWS Infrastructure.
+              I'm a Full-Stack Software Developer with experience in
+              JavaScript/TypeScript, Go, Python, SQL & NoSQL Databases, Docker, and AWS
+              Infrastructure.
             </p>
             <p>
-              Previously, I spent 5 years working in construction as a Building
-              Envelope and Structural Restoration Engineer. I decided to persue
-              my interest in software after demonstrating an ability to build
-              spreadsheets and small apps to improve workflow. Computers get to
-              do all the interesting stuff in civil engineering, anyway.
+              Prior to my time as a Growth and Developer Experience Engineer at Nylas, I
+              spent 5 years working in construction as a Building Envelope and Structural
+              Restoration Engineer. I decided to persue my interest in software after
+              demonstrating an ability to build spreadsheets and small apps to improve
+              workflow. Computers get to do all the interesting stuff in civil
+              engineering, anyway.
             </p>
           </div>
         </div>
@@ -39,19 +41,11 @@ class About extends Component {
             </a>
           </p>
         </div>
-        <div
-          className="row last"
-          style={{ borderBottom: "1px solid #444444" }}
-        ></div>
+        <div className="row last" style={{ borderBottom: "1px solid #444444" }}></div>
 
-        {/* <div className="row skills"> */}
         <div className="row skills" style={{ paddingTop: "80px" }}>
-          {/* <div className="one columns collapsed"></div> */}
           <div className="twelve columns collapsed">
-            <h2>
-              {/* <span>Skills</span> */}
-              My Skills
-            </h2>
+            <h2>My Skills</h2>
           </div>
 
           <div className="twelve columns" style={{ textAlign: "center" }}>
@@ -64,10 +58,10 @@ class About extends Component {
                 }}
               >
                 <i
-                  className="devicon-html5-plain"
+                  className="devicon-typescript-plain"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
-                <p>html5</p>
+                <p>TypeScript</p>
               </div>
               <div
                 style={{
@@ -76,11 +70,8 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i
-                  className="devicon-graphql-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
-                <p>GraphQL</p>
+                <i className="devicon-nextjs-line" style={{ fontSize: 500 + "%" }}></i>
+                <p>Next.js</p>
               </div>
               <div
                 style={{
@@ -89,27 +80,11 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i
-                  className="devicon-nodejs-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
-                <p>nodeJS</p>
+                <i className="devicon-svelte-plain" style={{ fontSize: 500 + "%" }}></i>
+                <p>SvelteKit</p>
               </div>
             </div>
             <div style={{ display: "inline-block" }}>
-              <div
-                style={{
-                  textAlign: "center",
-                  display: "inline-block",
-                  padding: 20 + "px",
-                }}
-              >
-                <i
-                  className="devicon-react-original"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
-                <p>React</p>
-              </div>
               <div
                 style={{
                   textAlign: "center",
@@ -121,7 +96,7 @@ class About extends Component {
                   className="devicon-express-original"
                   style={{ fontSize: 500 + "%" }}
                 ></i>
-                <p>express</p>
+                <p>Express</p>
               </div>
               <div
                 style={{
@@ -130,11 +105,18 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i
-                  className="devicon-jquery-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
-                <p>jQuery</p>
+                <i className="devicon-jest-plain" style={{ fontSize: 500 + "%" }}></i>
+                <p>Jest</p>
+              </div>
+              <div
+                style={{
+                  textAlign: "center",
+                  display: "inline-block",
+                  padding: 20 + "px",
+                }}
+              >
+                <i className="devicon-go-plain" style={{ fontSize: 500 + "%" }}></i>
+                <p>Go</p>
               </div>
             </div>
           </div>
@@ -147,37 +129,28 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i
-                  className="devicon-css3-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
-                <p>css3</p>
-              </div>
-              <div
-                style={{
-                  textAlign: "center",
-                  display: "inline-block",
-                  padding: 20 + "px",
-                }}
-              >
-                <i
-                  className="devicon-go-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
-                <p>Go</p>
-              </div>
-              <div
-                style={{
-                  textAlign: "center",
-                  display: "inline-block",
-                  padding: 20 + "px",
-                }}
-              >
-                <i
-                  className="devicon-python-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
+                <i className="devicon-python-plain" style={{ fontSize: 500 + "%" }}></i>
                 <p>Python</p>
+              </div>
+              <div
+                style={{
+                  textAlign: "center",
+                  display: "inline-block",
+                  padding: 20 + "px",
+                }}
+              >
+                <i className="devicon-flask-plain" style={{ fontSize: 500 + "%" }}></i>
+                <p>Flask</p>
+              </div>
+              <div
+                style={{
+                  textAlign: "center",
+                  display: "inline-block",
+                  padding: 20 + "px",
+                }}
+              >
+                <i className="devicon-graphql-plain" style={{ fontSize: 500 + "%" }}></i>
+                <p>GraphQL</p>
               </div>
             </div>
             <div style={{ display: "inline-block" }}>
@@ -201,10 +174,7 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i
-                  className="devicon-mongodb-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
+                <i className="devicon-mongodb-plain" style={{ fontSize: 500 + "%" }}></i>
                 <p>MongoDB</p>
               </div>
               <div
@@ -214,10 +184,7 @@ class About extends Component {
                   padding: 20 + "px",
                 }}
               >
-                <i
-                  className="devicon-docker-plain"
-                  style={{ fontSize: 500 + "%" }}
-                ></i>
+                <i className="devicon-docker-plain" style={{ fontSize: 500 + "%" }}></i>
                 <p>Docker</p>
               </div>
             </div>

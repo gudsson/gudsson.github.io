@@ -5,14 +5,8 @@ const Header = () => {
   // render() {
   return (
     <header id="home">
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Work+Sans"
-      />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Nunito+Sans"
-      />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans" />
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -49,17 +43,12 @@ const Header = () => {
         <div className="banner-text">
           <h1 className="responsive-headline">I'm Jay Gudsson.</h1>
           <h3>
-            I'm a Vancouver-based Full-Stack Software Developer.
-            {/* <h3 style={{ paddingTop: "10px" }}> */}
-            &nbsp;&nbsp;I recently built{" "}
-            <a
-              href="https://synapse-gateway.github.io"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Synapse
+            I'm a Vancouver-based Full-Stack Software Developer focused on
+            Growth&nbsp;and&nbsp;DevEx&nbsp;at{" "}
+            <a href="https://www.nylas.com" target="_blank" rel="noreferrer">
+              Nylas
             </a>
-            , a tool that creates, deploys, and monitors a GraphQL API Gateway.
+            .
           </h3>
           <hr />
           {/* <ul className="social">

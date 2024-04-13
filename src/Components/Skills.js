@@ -19,10 +19,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-html5-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-html5-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>html5</p>
             </div>
             <div
@@ -32,10 +29,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-graphql-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-graphql-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>GraphQL</p>
             </div>
             <div
@@ -45,10 +39,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-nodejs-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-nodejs-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>nodeJS</p>
             </div>
             <div
@@ -58,11 +49,8 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-react-original"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
-              <p>React</p>
+              <i className="devicon-nextjs-plain" style={{ fontSize: 500 + "%" }}></i>
+              <p>Next.nodeJS</p>
             </div>
             <div
               style={{
@@ -71,10 +59,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-express-original"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-express-original" style={{ fontSize: 500 + "%" }}></i>
               <p>express</p>
             </div>
             <div
@@ -84,10 +69,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-jquery-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-jquery-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>jQuery</p>
             </div>
           </div>
@@ -99,10 +81,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-css3-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-css3-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>css3</p>
             </div>
             <div
@@ -112,10 +91,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-go-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-go-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>Go</p>
             </div>
             <div
@@ -125,10 +101,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-python-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-python-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>Python</p>
             </div>
             <div
@@ -138,10 +111,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-postgresql-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-postgresql-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>Postgres</p>
             </div>
             <div
@@ -151,10 +121,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-mongodb-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-mongodb-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>MongoDB</p>
             </div>
             <div
@@ -164,10 +131,7 @@ const Skills = () => {
                 padding: 20 + "px",
               }}
             >
-              <i
-                className="devicon-docker-plain"
-                style={{ fontSize: 500 + "%" }}
-              ></i>
+              <i className="devicon-docker-plain" style={{ fontSize: 500 + "%" }}></i>
               <p>Docker</p>
             </div>
           </div>

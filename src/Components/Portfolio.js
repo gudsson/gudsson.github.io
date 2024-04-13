@@ -27,16 +27,16 @@ const Portfolio = () => {
       paragraphs: ["A Wordle clone that uses only NHL player names."],
       tech: "Svelte, Express",
     },
-    {
-      title: "ProjectHub",
-      image: "projecthub.png",
-      url: "https://github.com/synapse-gateway/project-hub",
-      paragraphs: [
-        "A Trello-like project management application.",
-        "Built using React/Redux, Express, and MongoDB.",
-      ],
-      tech: "React | Redux, Express, MongoDB",
-    },
+    // {
+    //   title: "ProjectHub",
+    //   image: "projecthub.png",
+    //   url: "https://github.com/synapse-gateway/project-hub",
+    //   paragraphs: [
+    //     "A Trello-like project management application.",
+    //     "Built using React/Redux, Express, and MongoDB.",
+    //   ],
+    //   tech: "React | Redux, Express, MongoDB",
+    // },
   ];
 
   // const openTab = (e) => {
