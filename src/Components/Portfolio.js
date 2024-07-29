@@ -3,22 +3,32 @@ import React from "react";
 const Portfolio = () => {
   const projectData = [
     {
-      title: "RedressedBin👗",
-      image: "redressedbin.png",
-      url: "https://bin.gudsson.ca",
+      title: "PuckPedia's PuckGM",
+      image: "puckgm.png",
+      url: "https://gordle.herokuapp.com/",
       paragraphs: [
-        "A RequestBin-style application for collecting and analyzing HTTP/webhook requests in real-time.",
+        "Part of a two-person team that built a fantasy hockey platform.",
       ],
-      tech: "React, Bootstrap, Express, MongoDB, and Socket.io",
+      tech: "Nextjs, Prisma, and Redis",
     },
+
     {
       title: "Hockey Boxscore Scrapers",
       image: "aasistats.png",
-      url: "https://github.com/gudsson/ahl_0/",
+      // url: "https://github.com/gudsson/ahl_0/",
       paragraphs: [
         "Webscrapers to extract shot location data from both NHL and AHL hockey boxscores for using in developing Expected Goal (xG) models.",
       ],
       tech: "Go (Colly), Python (BeautifulSoup), SQLite",
+    },
+    {
+      title: "RedressedBin👗",
+      image: "redressedbin.png",
+      // url: "https://bin.gudsson.ca",
+      paragraphs: [
+        "A RequestBin-style application for collecting and analyzing HTTP/webhook requests in real-time.",
+      ],
+      tech: "React, Bootstrap, Express, MongoDB, and Socket.io",
     },
     {
       title: "Gordle",
@@ -59,11 +69,16 @@ const Portfolio = () => {
                     return <p key={sentence}>{sentence}</p>;
                   })}
                   <p className="tech">{projects.tech}</p>
-                  {/* <div style={{ textAlign: "center" }}>
-                    <div className="link-icon">
-                      <i className="fa fa-link"></i>
+                  {projects.url && (
+                    <div
+                      style={{ textAlign: "center", cursor: "pointer" }}
+                      onClick={() => window.open(projects.url, "_blank")}
+                    >
+                      <div className="link-icon">
+                        <i className="fa fa-link"></i>
+                      </div>
                     </div>
-                  </div> */}
+                  )}
                 </div>
               </div>
             </div>
